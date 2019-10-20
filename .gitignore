@@ -3,5 +3,6 @@ Gemfile.lock
 .bundle/
 .idea/
 **/vendor/
-**/features/reports/
+**/results/*
 .ruby-version
+acceptance-tests/results/features_report.html

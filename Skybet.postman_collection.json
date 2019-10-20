@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "8f7ef164-8541-4a51-92e6-20a6d1cd2bc8",
+		"name": "Skybet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Live events",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/football/live?primaryMarkets=true",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"football",
+						"live"
+					],
+					"query": [
+						{
+							"key": "primaryMarkets",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "market",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/sportsbook/market/93649849",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"sportsbook",
+						"market",
+						"93649849"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,22 @@
+source 'https://rubygems.org'
+
+gem 'cucumber'
+gem 'httparty'
+gem 'rspec'
+gem 'json'
+gem 'json_spec'
+gem 'rake'
+gem 'require_all'
+gem 'rspec-expectations'
+gem 'json-schema'
+gem 'activesupport'
+gem 'addressable'
+
+
+
+
+
+
+
+
+
